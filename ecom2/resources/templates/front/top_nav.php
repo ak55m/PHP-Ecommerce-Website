@@ -31,16 +31,6 @@
                 
           </a>
           </li>
-<!--
-              <li class="nav-item active">
-            <a class="nav-link navbar-brand" href="#">
-          <span class="fab fa-bootstrap fa-lg"></span>
-          <span class="badge badge-primary">11</span>
-          </a>
-          </li>
--->
-    
-    
             <li class="nav-item active">
             <a class="nav-link navbar-brand" href="contact.php">Contact Us</a>
           </li>
