@@ -47,6 +47,8 @@
             </div>
       </div>
       </div>
+   
+   
  <?php include(TEMPLATE_FRONT . DS . "side_widget.php")?>
         
         
