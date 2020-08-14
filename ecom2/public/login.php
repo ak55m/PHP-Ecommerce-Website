@@ -15,9 +15,7 @@
         <div class="card card-signin my-5">
           <div class="card-body">
             <h5 class="card-title text-center">Log In</h5>
-              
-            
-              
+           
             <form class="form-signin" action="" method="post" enctype="multipart/form-data">
               <div class="form-label-group">
                 <input name="username" type="text" id="inputEmail" class="form-control" placeholder="Email address" value="<?php if(isset($_SESSION['password'])) {
@@ -37,6 +35,7 @@
               <div class="custom-control custom-checkbox mb-3">
                 <input type="checkbox" class="custom-control-input" id="customCheck1">
                 <label class="custom-control-label" for="customCheck1">Remember password</label>
+               
                   
               </div>
                 <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" name="submit">Log in</button>
