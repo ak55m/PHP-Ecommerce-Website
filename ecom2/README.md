@@ -13,7 +13,7 @@ TO RUN YOUR SERVER AND CREAT A DATABASE, PLEASE FOLLOW THE FOLLWOING STEPS:
 Please copy and paste to your web browser anything in quote from step 1
 1. Go to your respective browser and type "localhost/phpmyadmin/".
 2. In phpmyadmin click on NEW. Click on the SQL TAB under new and type "CREATE DATABSE 'ecom_db'".
-3. In ecom_db click on NEW. Click on the SQL TAB under ecom_db and copy and past the following: 
+3. In ecom_db click on NEW. Click on the SQL TAB under ecom_db and copy and paste the following: 
       CREATE TABLE categories(
           cat_id INT AUTO_INCREMENT NOT NULL, 
           cat_name text NOT NULL, 
@@ -23,7 +23,7 @@ Please copy and paste to your web browser anything in quote from step 1
  Click on "go" after pasting this SQL script.  
  
       
-4. Clik on categories table and select the SQL TAB under categories, erase the first line and copy and past the following: 
+4. Clik on categories table and select the SQL TAB under categories, erase the first line and copy and paste the following: 
 
     INSERT INTO categories (cat_id, cat_name) VALUES
     (1, 'Electronics'),
