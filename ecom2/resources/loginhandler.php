@@ -30,16 +30,10 @@ if(isset($_POST['submit'])) {
     else {
         array_push($error_array, "Email or password is incorrect<br>");
     }
-    
-    
-
-        
-    
         if(empty($error_array)) {
         $_SESSION['username'] = "";
         $_SESSION['password'] = "";
         }
 }
-
 
 ?>
